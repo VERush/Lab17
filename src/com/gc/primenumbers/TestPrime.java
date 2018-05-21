@@ -29,4 +29,13 @@ class TestPrime {
 
 		assertEquals(expected, actual);
 	}
+
+	@Test
+	void testMain3() {
+		PrimeCalc obj = new PrimeCalc();
+		int expected = 181;
+		int actual = obj.findPrime(42);
+
+		assertEquals(expected, actual);
+	}
 }

@@ -1,5 +1,10 @@
 package com.gc.primenumbers;
 
+/*
+ * @author Vicki Rush
+ * Grand Circus Java Bootcamp - Lab 17
+ * April 2018 Cohort
+ */
 public class PrimeCalc {
 
 	public int findPrime(int numToFind) {
@@ -9,7 +14,7 @@ public class PrimeCalc {
 		while (numFound < numToFind) {
 			numToTest++;
 			countDivisors = 0;
-			for (int i = 1; i < numToTest; i++) {
+			for (int i = 1; i <= numToTest; i++) {
 				if (numToTest % i == 0) {
 					countDivisors++;
 				}
